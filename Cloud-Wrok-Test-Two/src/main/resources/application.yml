@@ -1,0 +1,9 @@
+server:
+  port: 8083
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.22.222:18848
+  application:
+    name: Cloud-Work-Test

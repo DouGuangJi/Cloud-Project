@@ -1,0 +1,15 @@
+server:
+  port: 8083
+#  数据看配置
+spring:
+  datasource:
+    url: jdbc:postgresql://10.0.43.152:16789/powernewdev?useUnicode=true&characterEncoding=utf8&useSSL=true
+    username: power
+    password: riest9510
+    driverClassName: org.postgresql.Driver
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/**/*Mapper.xml

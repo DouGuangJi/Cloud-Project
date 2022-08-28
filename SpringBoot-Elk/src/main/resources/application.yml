@@ -1,0 +1,7 @@
+
+server:
+  port: 8888
+
+#logback对接logstash的日志配置文件
+logging:
+  config: classpath:logback-spring.xml

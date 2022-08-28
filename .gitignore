@@ -1,0 +1,4 @@
+# Project exclude paths
+/Cloud-MyBatis-Plus/target/
+/SpringBoot-Elk/target/
+/SpringBoot_Camunda/target/

@@ -1,0 +1,11 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: dubbo-consumer
+dubbo:
+  registry:
+    address: nacos://192.168.22.222:18848
+    username: nacos
+    password: nacos

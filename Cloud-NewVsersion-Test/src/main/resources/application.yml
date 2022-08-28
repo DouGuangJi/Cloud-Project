@@ -1,0 +1,11 @@
+server:
+  port: 8056
+
+spring:
+  main:
+    allow-circular-references: true
+
+  application:
+    name: NEW-version
+
+
