@@ -24,13 +24,13 @@
         <!--        <module>Cloud-Wrok-Test-Two</module>-->
         <!--        <module>Cloud-MyBatis-Plus</module>-->
         <!--        <module>RestTemplateStudy</module>-->
-<!--        <module>Cloud-SpringCloudStream-Study</module>-->
-<!--        <module>SpringCloudStream</module>-->
-<!--        <module>Cloud-StopRepeat</module>-->
-<!--        <module>Cloud-Sentinel</module>-->
-<!--        <module>Cloud-Kafka</module>-->
-<!--        <module>Cloud-NewVsersion-Test</module>-->
-<!--        <module>Cloud-Dubbo</module>-->
+        <!--        <module>Cloud-SpringCloudStream-Study</module>-->
+        <!--        <module>SpringCloudStream</module>-->
+        <!--        <module>Cloud-StopRepeat</module>-->
+        <!--        <module>Cloud-Sentinel</module>-->
+        <!--        <module>Cloud-Kafka</module>-->
+        <!--        <module>Cloud-NewVsersion-Test</module>-->
+        <!--        <module>Cloud-Dubbo</module>-->
         <module>SpringBoot_Camunda</module>
         <module>SpringBoot-Elk</module>
         <!-- <module>Cloud-SpringCloudStream-Study-Consumer</module>-->
@@ -95,9 +95,9 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-<!--                <version>2.1.1.RELEASE</version>-->
+                <!--                <version>2.1.1.RELEASE</version>-->
                 <version>2.7.1</version>
-<!--                <version>2.6.9</version>-->
+                <!--                <version>2.6.9</version>-->
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -106,7 +106,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-<!--                <version>Greenwich.SR3</version>-->
+                <!--                <version>Greenwich.SR3</version>-->
                 <version>2021.0.3</version>
                 <type>pom</type>
                 <scope>import</scope>
@@ -114,13 +114,12 @@
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-<!--                <version>2.1.0.RELEASE</version>-->
+                <!--                <version>2.1.0.RELEASE</version>-->
                 <version>2021.0.1.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
         </dependencies>
-
 
 
         <!--            <dependency>-->
@@ -162,7 +161,6 @@
             </plugin>
         </plugins>
     </build>
-
 
 
 </project>
